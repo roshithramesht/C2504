@@ -1,0 +1,27 @@
+14.checking Leap year or not
+pseudo routine:
+
+function Leapyear(year){
+    if year % 100 == 0
+      if year % 400 ==0
+         return true
+    else if year % 4 ==0
+      return true
+    else
+      return false
+}
+
+test routine:
+
+function testLeapyear(){
+    input year
+    if Leapyear(year)
+      print("leap year")
+    else
+      print("not leap year")
+}
+
+pseudo: test routine in the driver code / main function 
+function __Main__(){
+    testLeapyear()
+}
