@@ -1,0 +1,30 @@
+09.check a number is palindrome
+
+routine:
+function Palindrome(num){
+    rev = 0
+    temp = num
+    while temp > 0 do 
+       rem = temp % 10
+       rev = rev * 10 + rem
+       temp = temp % 10
+
+    if temp == num
+       return true
+    else
+       return false
+    
+}
+
+routine test:
+function testPalindrome(){
+    input num
+    if Palindrome(num)
+       print("the number is palindrome")
+    else
+       print("the number is not palindrome")
+}
+pseudo: test routine 
+function __Main__(){
+    testPalindrome()
+}
