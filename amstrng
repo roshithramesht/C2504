@@ -7,7 +7,7 @@ function Armstrong(num){
     while temp > 0 do
       rem = tem % 10
       sum = sum + rem ^ no_of_digits
-      temp = temp ?10
+      temp = temp /10
 
     if sum == num
       return true
@@ -23,7 +23,6 @@ function testArmstrong(){
     else
       print("the given number is not armstrong)
 }
-
 pseudo: test routine in the driver code / main function 
 function __Main__(){
     testArmstrong()
